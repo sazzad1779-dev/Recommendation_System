@@ -14,14 +14,12 @@ Throughout the workflow, multiple approaches were explored to better represent r
 
 1. **EDA** → explored dataset, identified missing values, and data distribution.
 2. **Feature Engineering** → tried multiple strategies:
-
    * Traditional TF-IDF features.
    * Structured embedding text combining categorical, numerical, and textual features.
 3. **Model Training** → built different recommenders (content, text, hybrid, embedding-ready).
 4. **Evaluation** → analyzed performance quantitatively (coverage, diversity, similarity) and qualitatively (manual inspection, error cases).
 5. **Outcome** → delivered a flexible **recommendation pipeline** with insights into what works best, and how future improvements (collaborative filtering, embeddings, A/B testing) could be added.
 6. **Interactive Web App** → An interactive Streamlit-based web application was built for users to explore restaurants, get recommendations, and visualize analytics.
-
 ---
 
 #### Project Structure
@@ -63,8 +61,7 @@ Throughout the workflow, multiple approaches were explored to better represent r
         ├── recommender.py
         └── text_based_recommender.py
 ```
-
----
+I have discussed about all the steps in brief.
 
 ####  Notebook: `01_eda.ipynb` — Exploratory Data Analysis
 
