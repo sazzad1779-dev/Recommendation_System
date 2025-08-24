@@ -12,5 +12,6 @@ dependencies = [
     "plotly>=6.3.0",
     "scikit-learn>=1.7.1",
     "seaborn>=0.13.2",
+    "sentence-transformers>=5.1.0",
     "streamlit>=1.48.1",
 ]
